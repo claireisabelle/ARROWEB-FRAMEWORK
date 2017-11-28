@@ -1,0 +1,18 @@
+{
+    "name": "arroweb/mon-framework",
+    "description": "Framework perso",
+    "authors": [
+        {
+            "name": "claireisabelle",
+            "email": "claire.bourdale@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/psr7": "^1.4",
+        "http-interop/response-sender": "^1.0",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "autoload": {
+    	"psr-4": {"Framework\\": "src/Framework"}
+    }
+}
